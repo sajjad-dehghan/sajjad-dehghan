@@ -119,9 +119,9 @@ I'm a product specialist with a computer engineering degree. I figure out what's
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake.svg" />
-  <img alt="A snake eating a year of GitHub activity" src="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake-dark.svg?v=mint" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake.svg?v=mint" />
+  <img alt="A snake eating a year of GitHub activity" src="https://raw.githubusercontent.com/sedwna/sedwna/output/github-activity-snake.svg?v=mint" />
 </picture>
 
 <sub>Each square is a real day of activity. Private contributions are counted but their details stay private.</sub>
