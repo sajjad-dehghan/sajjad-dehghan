@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const username = process.env.GITHUB_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || "sedwna";
+const username = process.env.GITHUB_USERNAME || process.env.GITHUB_REPOSITORY_OWNER || "sajjad-dehghan";
 const outputDir = process.env.OUTPUT_DIR || "dist";
 
 const themes = [
@@ -44,7 +44,7 @@ async function fetchContributionTotal() {
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
       const response = await fetch(url, {
-        headers: { Accept: "text/html", "User-Agent": "sedwna-snake-enhancer" },
+        headers: { Accept: "text/html", "User-Agent": "sajjad-dehghan-snake-enhancer" },
       });
       if (response.ok) {
         const html = await response.text();
