@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sajjaddehghan/"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=9ED0BC" alt="LinkedIn" /></a>
   <a href="mailto:sajaddehqan2002@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=9ED0BC" alt="Email" /></a>
-  <a href="https://github.com/sedwna?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0a0a0a?style=for-the-badge&logo=github&logoColor=9ED0BC" alt="Repositories" /></a>
+  <a href="https://sajjad-dehghan.ir/"><img src="https://img.shields.io/badge/Website-0a0a0a?style=for-the-badge&logo=googlechrome&logoColor=9ED0BC" alt="Website" /></a>
 </p>
 
 I'm a product specialist with a computer engineering degree. I figure out what's worth building, sketch it, ship a small version, and watch whether people actually use it.
