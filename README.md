@@ -52,6 +52,14 @@ An independent editorial interface study: aged paper, oversized type and scroll-
 
 <sub>Reference: Vesper by Scrolltide, with no affiliation. The screenshot shows the implemented interface; its product imagery and editorial scenes are AI-generated. Hybrid photographic/WebGL bottle rendering, not a fully volumetric viewer. Reservations and sign-ups are localStorage demonstrations, not real orders.</sub>
 
+### BRWW Coffee in Motion
+
+[![BRWW — actual coffee storefront capture with AI-assisted artwork](./assets/2026/brww.jpg)](https://sajjad-dehghan.ir/projects/brww-coffee-in-motion)
+
+A warm coffee storefront study with pointer depth, a seven-part editable Three.js cup and quiet scroll entrances. Vanilla JavaScript, responsive layouts and browser-local cart and coffee quiz. [Explore nine desktop and mobile views ↗](https://sajjad-dehghan.ir/projects/brww-coffee-in-motion) · [Live demo ↗](https://sajjad-dehghan.github.io/brww-coffee-in-motion/) · [Source ↗](https://github.com/sajjad-dehghan/brww-coffee-in-motion).
+
+<sub>Independent study referencing Coffee by Scrolltide, with no affiliation. The screenshot shows the running interface; coffee artwork and textures are AI-assisted. Brand claims and ratings are illustrative. No real account authentication, payment or order backend is connected.</sub>
+
 **[Explore the full portfolio →](https://sajjad-dehghan.ir/en#all-projects)** · **[ویترین فارسی →](https://sajjad-dehghan.ir/fa#all-projects)**
 
 <details>
