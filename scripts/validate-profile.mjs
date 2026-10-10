@@ -5,6 +5,11 @@ const root = resolve(import.meta.dirname, '..');
 const readme = await readFile(resolve(root,'README.md'),'utf8');
 const names = ['hero','approach','showroom','linkup','baxi','chatter','sandwich','dariwall','osgolia','dino','four','tic-tac','wrist','contact'];
 const expected = name => name === 'hero' ? [1200,700] : name === 'approach' ? [1200,310] : name === 'showroom' ? [1200,165] : name === 'contact' ? [1200,340] : [600,440];
+const animation = await readFile(resolve(root,'assets/2026/hero-animated.gif'));
+assert.equal(animation.subarray(0,6).toString(),'GIF89a');
+assert.deepEqual([animation.readUInt16LE(6),animation.readUInt16LE(8)],[1200,700]);
+assert.ok(animation.includes(Buffer.from('NETSCAPE2.0')),'Looping animation');
+assert.ok(readme.includes('prefers-reduced-motion: reduce'),'Static reduced-motion fallback');
 for (const name of names) {
   const bytes = await readFile(resolve(root,`assets/2026/${name}.png`));
   assert.equal(bytes.subarray(1,4).toString(),'PNG');

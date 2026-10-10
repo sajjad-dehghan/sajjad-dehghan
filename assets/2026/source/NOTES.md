@@ -6,7 +6,13 @@ This GitHub profile follows the existing creator design at https://sajjad-dehgha
 
 Run `node scripts/preview-profile.mjs`, open http://127.0.0.1:4331/ at a viewport at least 1200px wide and wait for fonts/images to finish loading. Capture each `[data-export]` section at its native bounding box to `assets/2026/<data-export>.png`. If the screenshot provider returns JPEG bytes, convert their encoding to PNG before saving the published files. The hero is 1200 × 700; each work card is 600 × 440. All screen images use `object-fit: contain`; DariWall uses three complete phone captures in a landscape card. Published PNGs are browser rasterizations of this HTML/CSS, not synthesized product screenshots. Source screenshots and portrait remain unchanged. Validate with `node scripts/validate-profile.mjs`.
 
-## Sources and limitations
+## Animated hero
+
+The same unchanged portrait is now animated with a six-second CSS loop: a gentle vertical float (12px), small roll (1.5 degrees) and perspective turn (5 degrees). This is motion applied to the existing stylized portrait, not a new 3D mesh or a regenerated face. Only the portrait moves; headings and contact copy stay still. The source HTML honors `prefers-reduced-motion`.
+
+To reproduce the GitHub-compatible GIF, capture the 1200 × 700 hero from `design.html?frame=0` through `?frame=59` using the preview server, saving browser frames as `.preview/frames/00.jpg` through `59.jpg`. Verify fonts and the portrait are fully loaded before each capture. Run `node scripts/build-hero-gif.mjs` with the `sharp` package installed (or set `SHARP_MODULE` to an existing sharp entry file). It encodes 60 frames at 100ms each, repeating indefinitely. The README uses `hero-animated.gif` with `hero.png` as the reduced-motion fallback. Encoding is format conversion of native browser captures; no photo editing or new face generation is involved.
+
+## Original media
 
 Screens copied from the owner's personal-site `public/projects` assets:
 

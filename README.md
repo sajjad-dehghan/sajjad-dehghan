@@ -1,4 +1,4 @@
-<a href="https://sajjad-dehghan.ir/"><img src="./assets/2026/hero.png" width="100%" alt="Hi, I'm Sajjad Dehghan. A product thinker. A curious builder. Making ideas useful. Product specialist at LinkUp, Tehran, Iran." /></a>
+<a href="https://sajjad-dehghan.ir/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/2026/hero.png" /><img src="./assets/2026/hero-animated.gif" width="100%" alt="Animated 3D portrait of Sajjad Dehghan, gently floating and turning. A product thinker. A curious builder. Making ideas useful. Product specialist at LinkUp, Tehran, Iran." /></picture></a>
 
 <p align="center">
   <a href="https://sajjad-dehghan.ir/"><b>THE WEBSITE ↗</b></a> &nbsp; / &nbsp;
