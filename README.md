@@ -44,6 +44,14 @@ Each preview opens a showroom with more views and context. These are **actual im
   </tr>
 </table>
 
+### Nocturne Reserve
+
+[![Nocturne Reserve — actual desktop interface capture, with generated product imagery](./assets/2026/nocturne.webp)](https://sajjad-dehghan.ir/projects/nocturne-reserve)
+
+An independent editorial interface study: aged paper, oversized type and scroll-driven WebGL product motion. JavaScript / Vite / Three.js / GSAP, with six editable GLB assets. [Explore six desktop and mobile views ↗](https://sajjad-dehghan.ir/projects/nocturne-reserve) · [Source ↗](https://github.com/sajjad-dehghan/nocturne-reserve).
+
+<sub>Reference: Vesper by Scrolltide, with no affiliation. The screenshot shows the implemented interface; its product imagery and editorial scenes are AI-generated. Hybrid photographic/WebGL bottle rendering, not a fully volumetric viewer. Reservations and sign-ups are localStorage demonstrations, not real orders.</sub>
+
 **[Explore the full portfolio →](https://sajjad-dehghan.ir/en#all-projects)** · **[ویترین فارسی →](https://sajjad-dehghan.ir/fa#all-projects)**
 
 <details>

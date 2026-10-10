@@ -1,8 +1,14 @@
 import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { createHash } from 'node:crypto';
 const root = resolve(import.meta.dirname, '..');
 const readme = await readFile(resolve(root,'README.md'),'utf8');
+const nocturne = await readFile(resolve(root,'assets/2026/nocturne.webp'));
+assert.equal(createHash('sha256').update(nocturne).digest('hex'),'46e3772bec8c6dc7bb44fdfd28d638a67cbdf46c5ec3ebcdff00913230abd8a2','Unchanged source capture');
+assert.ok(readme.includes('/projects/nocturne-reserve'));
+assert.ok(readme.includes('https://github.com/sajjad-dehghan/nocturne-reserve'));
+assert.ok(readme.includes('AI-generated') && readme.includes('localStorage demonstrations'));
 const names = ['hero','approach','showroom','linkup','baxi','chatter','sandwich','dariwall','osgolia','dino','four','tic-tac','wrist','contact'];
 const expected = name => name === 'hero' ? [1200,700] : name === 'approach' ? [1200,310] : name === 'showroom' ? [1200,165] : name === 'contact' ? [1200,340] : [600,440];
 const animation = await readFile(resolve(root,'assets/2026/hero-animated.gif'));
