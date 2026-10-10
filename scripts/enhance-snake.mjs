@@ -8,28 +8,28 @@ const themes = [
   {
     file: "github-activity-snake.svg",
     mode: "light",
-    background: "#FBFBFA",
+    background: "#F5F2FA",
     panel: "#FFFFFF",
     border: "#DADDDB",
     text: "#0C0C0C",
     muted: "#5D6163",
     track: "#EEF2F0",
     trackBorder: "#C5CCC8",
-    progressStart: "#2F7D66",
-    progressEnd: "#9ED0BC",
+    progressStart: "#794DC0",
+    progressEnd: "#AE8AF8",
   },
   {
     file: "github-activity-snake-dark.svg",
     mode: "dark",
-    background: "#000000",
-    panel: "#0A0A0A",
-    border: "#262626",
-    text: "#F0F0F0",
-    muted: "#8A8E90",
-    track: "#111412",
-    trackBorder: "#2A2E2D",
-    progressStart: "#5FA98F",
-    progressEnd: "#9ED0BC",
+    background: "#0C0C0C",
+    panel: "#101010",
+    border: "#343437",
+    text: "#D7E2EA",
+    muted: "#A2A3AC",
+    track: "#18151D",
+    trackBorder: "#343437",
+    progressStart: "#9170C9",
+    progressEnd: "#AE8AF8",
   },
 ];
 
@@ -173,7 +173,7 @@ function enhance(svg, theme, contributionTotal) {
     <rect x="-70" y="-64" width="988" height="254" rx="18" fill="${theme.background}" stroke="${theme.border}"/>
     <rect x="-56" y="-52" width="960" height="226" rx="14" fill="${theme.panel}" stroke="${theme.border}" stroke-opacity=".68"/>
     <text x="0" y="-39" class="title">${title}</text>
-    <text x="848" y="-39" text-anchor="end" class="meta">DAILY &#183; PUBLIC + PRIVATE</text>
+    <text x="848" y="-39" text-anchor="end" class="meta">DAILY &#183; GITHUB ACTIVITY</text>
     ${monthLabels()}
     <text x="-47" y="28" class="axis">Mon</text>
     <text x="-47" y="60" class="axis">Wed</text>
